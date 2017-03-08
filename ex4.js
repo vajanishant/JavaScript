@@ -11,7 +11,7 @@ window.onload = function() {
         count = count + 1;
         score.innerHTML = count;
     }
-    var but = document.getElementById('but').onclick = function() {
+    var but = document.getElementById('but').onmouseover = function() {
         count = 0;
         score.innerHTML = count;
     }
